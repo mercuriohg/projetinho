@@ -5,7 +5,7 @@ repositórios, *"Procuro buscar mais conhecimento para que assim eu possa me tor
 crescer ainda mais o meu conhecimento.
 
 # 📎Pastas
-° Pasta I:
+° Pasta I: Vinhos e Whiskys
 <br>° Pasta II:
 <br>° Pasta III:
 <br>° Pasta IV: 
