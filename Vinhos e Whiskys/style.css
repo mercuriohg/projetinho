@@ -1,102 +1,135 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
-*{
-    margin:0px;
+
+* {
+    margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background-color: rgb(202, 65, 202);
 }
-a{
+
+a {
     text-decoration: none;
     color: white
 }
-a:hover{
+
+a:hover {
     color: rgb(173, 17, 173);
 }
-.cabecalho{
+
+.cabecalho {
     background-color: purple;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 10px;
     text-align: left;
 }
-.cabecalho>p{
+
+.cabecalho>p {
     text-align: center;
     justify-items: flex;
     margin-top: 5px;
     padding: 4px;
 }
-.cabecalho>h1{
+
+.cabecalho>h1 {
     margin: 5px 0 0 5px;
 }
-.cabecalho>img{
+
+.cabecalho>img {
     margin: 0;
     box-shadow: none;
 }
-.divcabecalho{
+
+.divcabecalho {
     text-align: end;
 }
-nav{
+
+nav {
     font-size: large;
-    text-align:center;
+    text-align: center;
     padding: 20px;
     font-family: "WindSong", sans-serif;
     background-color: rgb(94, 18, 94);
     word-spacing: 200px;
 
 }
-main{
-    background-color:rgba(194, 13, 194, 0.74);
+
+main {
+    background-color: rgba(194, 13, 194, 0.74);
     color: rgb(0, 0, 0);
-    margin:0px 350px;
+    margin: 0px 350px;
     padding: 20px;
     text-align: center;
     box-shadow: 2px 3px 7px 1px black;
 }
 
-.acervosentenca{
+.acervosentenca {
     font-family: "WindSong", Arial, sans-serif;
-    margin:5px 30px;
+    margin: 5px 30px;
     padding: 2px;
 }
-section{
+
+section {
     padding: 20px;
     text-align: justify;
 }
-img{
+
+img {
     box-shadow: 2px 3px 7px black;
     margin: 10px;
     justify-content: space-between;
 }
-footer{
+
+footer {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr;
     background-color: purple;
 }
-footer>div{
+
+footer>div {
     text-align: center;
     padding: 10px;
 }
-footer>p{
+
+footer>p {
     text-align: center;
     color: white;
     padding: 2px;
 }
-footer>a{
+
+footer>a {
     text-align: center;
     margin: 5px;
     padding: 10px;
 }
-.rodapeimg{
+
+.rodapeimg {
     box-shadow: none;
 }
-footer>nav{
+
+footer>nav {
     word-spacing: 50px;
 }
-@media (max-width: 540px){
+
+@media (max-width: 540px) {
+    main {
+        margin: 0 30px;
+    }
+
+}
+
+@media (max-width: 890px) {
+    main {
+        margin: 0 30px;
+    }
+
+}
+@media (max-width: 1230px){
     main{
         margin:0 30px;
     }
