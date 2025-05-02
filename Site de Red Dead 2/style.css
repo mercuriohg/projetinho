@@ -52,3 +52,9 @@ nav a:hover{
 nav{
     background-color: red;
 }
+@media (max-width: 560px){
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+}
