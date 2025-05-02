@@ -111,6 +111,13 @@ footer>a {
 .rodapeimg {
     box-shadow: none;
 }
+img{
+    transition: all 0.3s ease;
+}
+img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
 
 footer>nav {
     word-spacing: 50px;
@@ -119,6 +126,12 @@ footer>nav {
 @media (max-width: 540px) {
     main {
         margin: 0 30px;
+    }
+    nav>a{
+        margin:2px;
+        display: flex;
+        flex-direction: column;   
+    
     }
 
 }
