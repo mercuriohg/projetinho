@@ -6,7 +6,7 @@ crescer ainda mais o meu conhecimento.
 
 # 📎Pastas
 ° Pasta I: Vinhos e Whiskys
-<br>° Pasta II:
+<br>° Pasta II: Red Dead 2 Wiki
 <br>° Pasta III:
 <br>° Pasta IV: 
 
