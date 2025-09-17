@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+  
+}
+:root{
+    --fonte1:'Passion One', Arial, system-ui, sans-serif
+}
+header{
+    background-color: black;
+    margin: 0;
+    padding: 40px;
+    color:white;
+    text-align: center;
+}
+h1{
+
+    font-family:var(--fonte1);
+    font-size: 50px;
+}
+p{
+    line-height: 2em;
+    font-size: larger;
+    width: 40vw;
+    height: 48vh;
+    padding: 40px 50px;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#fundo{
+    box-shadow: inset 6px 8px 10px black;
+    background-image: url(img/background001.jpg);
+    background-color: gray;
+    background-position: right center;
+    height: 450px;
+}
+#fundo2{
+   box-shadow: inset 6px 8px 10px black;
+   background-image: url(img/background002.jpg); 
+   background-color: gray;
+   background-position: right center;
+   background-size: cover;
+   height: 450px;
+}
+.fundoimg{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+section>p{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 20px;
+    height: 250px;
+    width: 230px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+footer{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+footer p{
+    padding: 20px;
+    margin: auto;
+
+}
+@media(max-width:550px){
+    p{
+    line-height: 1em;
+    font-size: larger;
+    width: 40vw;
+    height: 48vh;
+    padding: 40px 40px;
+}
+}
