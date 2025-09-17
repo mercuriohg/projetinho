@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(114, 114, 235);
+    background-image: url(img/imgsnoopyfundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(59, 59, 199);}
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+li{
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+}
+li:hover{
+    box-shadow: 2px 5px 20px black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+.divcontent{
+    width: 260px;
+    font-family: 'Courier New', Courier, monospace ;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 100dvh;
+}
+input{
+    margin: 8px;
+    width: 90%;
+   
+}
+#box-input{
+    width: 30%;
+}
+.caixatexto{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+#box-input:hover{
+    color:white;
+    background-color: rgb(61, 61, 231);
+    cursor: pointer;
+}
+.fotosprin{
+    padding: 3px;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
+.fotosprin:hover{
+     transform: translateY(-5px)
+}
+footer{    background-color: rgb(59, 59, 199);
+}
+h4{
+    text-align: center;
+    padding: 20px;
+}
+#footer-main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.conteudo{
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(113, 113, 235);
+    padding: 20px;
+    border-radius: 20px;
+}
+.conteudo h3{
+    margin: 10px;
+}
+.conteudo a{
+    color: black;
+}
+.conteudo a:hover{
+    color: rgb(16, 16, 87);
+}
+.conteudo p{
+    margin: 5px;
+}
