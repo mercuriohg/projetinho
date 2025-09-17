@@ -7,7 +7,10 @@ crescer ainda mais o meu conhecimento.
 # 📎Pastas
 ° Pasta I: Vinhos e Whiskys
 <br>° Pasta II: Red Dead 2 Wiki
-<br>° Pasta III:
-<br>° Pasta IV: 
+<br>° Pasta III: Cordel (Trabalho aprendido com o Curso em Vídeo)
+<br>° Pasta IV: Hora do Sistema (Trabalho aprendido com o Curso em Vídeo)
+<br>° Pasta V: 
+
+
 
 >Projetos totalmente pessoais! 🗞️
