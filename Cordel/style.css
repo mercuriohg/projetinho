@@ -54,6 +54,7 @@ a:hover{
     display: flex;
     justify-content: left;
     align-items: center;
+    background-attachment: fixed;
 }
 section>p{
     color: aliceblue;
