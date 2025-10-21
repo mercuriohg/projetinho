@@ -5,7 +5,7 @@
   
 }
 :root{
-    --fonte1:'Passion One', Arial, system-ui, sans-serif
+    --fonte1:'Passion One', Arial, system-ui, sans-serif;
 }
 header{
     background-color: black;
@@ -21,7 +21,7 @@ h1{
 }
 p{
     line-height: 2em;
-    font-size: larger;
+    font-size: 1.2rem;
     width: 40vw;
     height: 48vh;
     padding: 40px 50px;
@@ -38,6 +38,7 @@ a:hover{
     box-shadow: inset 6px 8px 10px black;
     background-image: url(img/background001.jpg);
     background-color: gray;
+    background-attachment: fixed;
     background-position: right center;
     height: 450px;
 }
@@ -45,6 +46,7 @@ a:hover{
    box-shadow: inset 6px 8px 10px black;
    background-image: url(img/background002.jpg); 
    background-color: gray;
+   background-attachment: fixed;
    background-position: right center;
    background-size: cover;
    height: 450px;
@@ -54,7 +56,6 @@ a:hover{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-attachment: fixed;
 }
 section>p{
     color: aliceblue;
@@ -78,9 +79,9 @@ footer p{
 }
 @media(max-width:550px){
     p{
-    line-height: 1em;
-    font-size: larger;
-    width: 40vw;
+    line-height: 2em;
+    font-size: 1.2rem;
+    width: 50vw;
     height: 48vh;
     padding: 40px 40px;
 }
